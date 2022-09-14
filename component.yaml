@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: circleci-test
+  description: Testing the CircleCI functions
+  annotations:
+    circleci.com/project-slug: github/CircleCITest3/circleci-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
